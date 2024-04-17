@@ -28,6 +28,7 @@ public class JpaRoleApplication {
           u2.setPassword("123456");
           userService.addNewUser(u2);*/
 
+
 			Stream.of("student","user","admin").forEach(r->{
 				Role role = new Role();
 				role.setRoleName(r);
